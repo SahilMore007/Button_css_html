@@ -1,0 +1,36 @@
+body
+{
+  margin: 0; 
+  padding: 0;
+  background:black;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
+}
+
+.button 
+{
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background:linear-gradient(#e24eb8, #d897c6,#f0c7e4);
+  border: none;
+  border-radius: 14px 0px 14px 0px;
+  box-shadow: 0 9px #dad6d6;
+}
+
+.button:hover {background:linear-gradient(#f0c7e4, #d897c6, #e24eb8)}
+
+.button:active 
+{
+  background-color: #3e8e41;
+  box-shadow: 0 5px #e8e1e1;
+  transform: translateY(4px);
+  transition: 47ms;
+}
